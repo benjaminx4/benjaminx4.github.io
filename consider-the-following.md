@@ -42,6 +42,25 @@ If you want more cool Markdown stuff, look at [GitHub’s documentation](https:/
 One last thing: **Do not include actual test content!** This is a public website and I do not want any future students being able to just memorize the answers to the assessments with this website.
 
 # Test01-Cumulative
+Consider the following:
+```java
+put your code here
+```
+
+Which of the following is correct?
+A. blah
+B. blah
+C. blah
+D. blah
+
+<details>
+  <summary>Answer</summary>
+  **D.** This is because blah blah blah. You don't need to write an explanation, but you can if you want to. The most important is having the correct answer somewhere.
+</details>
+
+###### Written by YOURNAME
+
+---
 
 # Quiz02-Strings
 
