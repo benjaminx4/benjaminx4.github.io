@@ -42,7 +42,35 @@ If you want more cool Markdown stuff, look at [GitHub’s documentation](https:/
 One last thing: **Do not include actual test content!** This is a public website and I do not want any future students being able to just memorize the answers to the assessments with this website.
 
 # Test01-Cumulative
+This section only covers new material not covered in previous assessments. Also see:
+* [Quiz02-Strings](#quiz02-strings)
+* [Quiz01-Summer](#quiz01-summer)
 
 # Quiz02-Strings
+Consider the following:
+```java
+System.out.println('A' + 'A' - 65);
+```
+
+Which of the following will be printed?<br>
+A. AA65<br>
+B. -63<br>
+C. 65<br>
+D. error
+
+<details>
+  <summary>Answer</summary>
+  C. Remember chars are just ints. 'A' is 65 (you didn’t need to know that exactly but you should have been able to figure out from the other answers). 65 + 65 - 65 = 65.<br>
+  <br>
+  A is incorrect. Notice the single quotes. 'A' is a character, not a String.<br>
+  <br>
+  B is incorrect. 'A' is 65 and not 1. You should know that letters are not at the front of the ASCII table.<br>
+  <br>
+  D is incorrect. You can do arithmetic with chars as if they were ints (because they are).
+</details>
+
+###### Written by Benjamin Xie
+
+---
 
 # Quiz01-Summer
