@@ -19,10 +19,10 @@ Consider the following:
 put your code here
 ```
 
-Which of the following is correct?
-A. blah
-B. blah
-C. blah
+Which of the following is correct?<br>
+A. blah<br>
+B. blah<br>
+C. blah<br.
 D. blah
 
 <details>
@@ -47,10 +47,10 @@ Consider the following:
 put your code here
 ```
 
-Which of the following is correct?
-A. blah
-B. blah
-C. blah
+Which of the following is correct?<br>
+A. blah<br>
+B. blah<br>
+C. blah<br>
 D. blah
 
 <details>
