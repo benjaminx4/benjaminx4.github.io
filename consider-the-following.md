@@ -8,7 +8,7 @@ Jump to:
 * [Quiz01-Summer](#quiz01-summer)
 
 # Guidelines
-[Fill out this form](https://docs.google.com/forms/d/e/1FAIpQLSenCrKOmmAFRTI8f7P5FIQw86uHck0g7JbMsTm8TpqwlMuFeQ/viewform?usp=dialog) to request contributing access.
+[Fill out this form](https://docs.google.com/forms/d/e/1FAIpQLSenCrKOmmAFRTI8f7P5FIQw86uHck0g7JbMsTm8TpqwlMuFeQ/viewform?usp=dialog) (stuy.edu email only!) to request contributing access.
 
 Then read [this](https://konstantinnovation.github.io/index.html#gitbranch) for how to make contributions.
 
