@@ -47,22 +47,51 @@ This section only covers new material not covered in previous assessments. Also 
 * [Quiz01-Summer](#quiz01-summer)
 
 Consider the following:
+
 i.
 ```java
-Testing Testing
-123
+String[] arr = new String[5];
+for (int i = 0; i < arr.length; i++){
+  System.out.println(arr[i]);
+}
 ```
 
-Which of the above will return a null pointer exception?<br>
-A. blah<br>
-B. blah<br>
-C. blah<br>
-D. blah<br>
+ii.
+```java
+int count = 0;
+String[] arr = new String[5];
+for (int i = 0; i < arr.length; i++){
+  if (arr[i].equals("hi")) count++;
+}
+System.out.println(count);
+```
+
+iii.
+```java
+int[][] arr = new int[3][2];
+for (int i = 0; i < 3; i++){
+  System.out.println(arr[0][i] != arr[1][i]);
+}
+```
+
+Which of the above will result in a `NullPointerException`?<br>
+A. i only<br>
+B. iii only<br>
+C. i and iii only<br>
+D. i, ii, and iii<br>
 E. none of these options
 
 <details>
   <summary>Answer</summary>
-  D. This is because blah blah blah. You don't need to write an explanation, but you can if you want to. The most important is having the correct answer somewhere.
+  E is the correct answer.<br>
+  <br>
+  i. Creates a new String array—by default each of the items are null. When you print something that is null, you will get "null". Not a NullPointerException.<br>
+  <br>
+  ii. Creates a new String array—by default each of the items are null. Even though this is a String array, you can’t use .equals or other methods on null. If you try to, you will get a NullPointerException.<br>
+  <br>
+  iii. Creates a new 2D int array with 3 rows and 2 columns. Each element is by default 0, not null, so automatically this should not be a NullPointerException. This actually still breaks, but for a different reason (ArrayIndexOutOfBoundsException).<br>
+  <br>
+  The option we want, ii only, is not present, so we should choose E. none of these options.
 </details>
 
 ###### Written by Benjamin Xie
