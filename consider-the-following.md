@@ -22,7 +22,7 @@ put your code here
 Which of the following is correct?<br>
 A. blah<br>
 B. blah<br>
-C. blah<br.
+C. blah<br>
 D. blah
 
 <details>
@@ -45,6 +45,29 @@ One last thing: **Do not include actual test content!** This is a public website
 This section only covers new material not covered in previous assessments. Also see:
 * [Quiz02-Strings](#quiz02-strings)
 * [Quiz01-Summer](#quiz01-summer)
+
+Consider the following:
+i.
+```java
+Testing Testing
+123
+```
+
+Which of the above will return a null pointer exception?<br>
+A. blah<br>
+B. blah<br>
+C. blah<br>
+D. blah<br>
+E. none of these options
+
+<details>
+  <summary>Answer</summary>
+  D. This is because blah blah blah. You don't need to write an explanation, but you can if you want to. The most important is having the correct answer somewhere.
+</details>
+
+###### Written by Benjamin Xie
+
+---
 
 # Quiz02-Strings
 Consider the following:
