@@ -123,6 +123,29 @@ D. error
 
 ###### Written by Benjamin Xie
 
+Consider the following:
+```java
+String str = new String "Hello\nWorld\"";
+System.out.println("Goodbye " + str.substring(5));
+```
+Which of the following will be printed?<br>
+A. Goodbye \nWorld"<br>
+B. Goodbye <br>  World"<br>
+C. Goodbye World<br>
+D. error
+
+<details>
+  <summary>Answer</summary>
+  B. \n is the character at index 5; escape sequences like \n are regarded as a single character. \n creates a new line, meaning there is a break between "Goodbye" and "World".<br>
+  <br>
+  A is incorrect. \n is an escape sequence, so it would start a new line instead of printing "\n".<br>
+  <br>
+  C is incorrect. \n is an escape sequence, so it would start a new line. str.substring(5) includes the character at index 5 up to the last character. <br>
+  <br>
+  D is incorrect. Both escape sequences are valid; if they were invalid (ex. \!) it would return an error. In this case, it doesn't.
+</details>
+
 ---
 
 # Quiz01-Summer
+
